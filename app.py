@@ -25,10 +25,8 @@ st.dataframe(df_lenguaje)
 
 st.title("Análisis de Datos Tecnológicos")
 
-# Seleccionar una variable para visualizar
 opcion = st.selectbox("Seleccione una variable para visualizar", ["Edad", "Años de experiencia", "Salario actual (USD)"])
 
-# Generar el gráfico
 fig, ax = plt.subplots()
 sns.histplot(dataframe_csv[opcion], bins=20, kde=True, ax=ax)
 ax.set_title(f"Distribución de {opcion}")
