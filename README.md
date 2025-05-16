@@ -31,6 +31,7 @@ Los datos del CSV contiene:
 Esta es la estructura del proyecto.
 
 📂 NUEVAS_TEC_PROYECTO_INTEGRADOR 
+
  ├── 📂 .venv             # Entorno virtual  
  ├── 📂 static            # Archivos estáticos (archivo CSV)  
  ├── 📜 .gitignore        # Archivos ignorados por Git  
