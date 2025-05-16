@@ -8,6 +8,7 @@ Este proyecto integrador se basa en la implementación de la aplicación Streaml
 ## Tecnologías utilizadas:
 
 ° Streamlit: Framework para la creación de las páginas interactivas.
+
 ° Pandas: Manipulación y análisis de datos.
 
 ## Instalación y ejecución:
