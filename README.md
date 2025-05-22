@@ -34,7 +34,7 @@ Esta es la estructura del proyecto.
 📂 NUEVAS_TEC_PROYECTO_INTEGRADOR 
 
  ├── 📂 .venv             # Entorno virtual  
- ├── 📂 static            # Archivos estáticos (archivo CSV)  
+ ├── 📂 static            # Archivos estático(archivoCSV)  
  ├── 📜 .gitignore        # Archivos ignorados por Git  
  ├── 📜 app.py            # Código principal de la aplicación  
  ├── 📜 README.md         # Documentación del proyecto  
