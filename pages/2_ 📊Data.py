@@ -115,10 +115,10 @@ st.markdown("<br>", unsafe_allow_html=True)
 col1, col2 = st.columns([1,1])
 
 # Gráfico de líneas: Tendencia de salario por años de experiencia
-fig_line = px.line(dataframe_csv_filtered, x="Años de experiencia", y="Salario actual (USD)", 
-                   title="Tendencia de Salario por Años de Experiencia", 
-                   markers=True, color="Especialidad tecnológica")
-col1.plotly_chart(fig_line, use_container_width=True)
+# fig_line = px.line(dataframe_csv_filtered, x="Años de experiencia", y="Salario actual (USD)", 
+#                    title="Tendencia de Salario por Años de Experiencia", 
+#                    markers=True, color="Especialidad tecnológica")
+# col1.plotly_chart(fig_line, use_container_width=True)
 
 # Gráfico de área: Certificaciones acumuladas por lenguaje
 fig_area = px.area(dataframe_csv_filtered, x="Lenguaje favorito", y="Número de certificaciones técnicas", 
