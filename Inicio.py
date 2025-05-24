@@ -25,35 +25,48 @@ Nuestro objetivo es modernizar el control escolar usando tecnologías web eficie
 # Tecnologías utilizadas,
 st.subheader("🛠️ Tecnologías de Desarrollo")
 st.markdown("""
-⚛️ React – Interfaz de usuario moderna.,
-⚡ Vite – Entorno de desarrollo rápido.,
-📦 NPM – Gestor de dependencias.,
-🐍 Python + Streamlit – Backend y visualización rápida.,
+        - ⚛️ React – Interfaz de usuario moderna.,
+        - ⚡ Vite – Entorno de desarrollo rápido.,
+        - 📦 NPM – Gestor de dependencias.,
+        - 🐍 Python + Streamlit – Backend y visualización rápida.,
 """)
+
+st.markdown(""" """)
 
 # Cómo ejecutar el proyecto,
 st.subheader("🚀 ¿Cómo ejecutar el proyecto?")
 st.markdown("""
-Clona este repositorio.,
-Ejecuta en la terminal: npm i,
-Luego corre el proyecto con: npm run dev,
+        - Clona este repositorio.,
+        - Ejecuta en la terminal: npm i,
+        - Luego corre el proyecto con: npm run dev,
 """)
+
+st.markdown(""" """)
+
 
 # Integrantes del equipo,
 st.subheader("👩‍💻 Integrantes del Proyecto")
-st.markdown("""
-Mariana Marulanda
-🆔 1018234921
-📧 1software.files1@gmail.com,
+st.markdown(""" """)
 
-Sheyla Rodelo
-🆔 1025891870
-📧 rodelosheyla8@gamil.com,
+st.markdown("""   - 🗿 Skarlet Castillo
+        - 🆔 1036691265
+        - 📧 genessisskarlet@gmail.com,    """)
+                
 
-Skarlet Castillo
-🆔 1036691265
-📧 genessisskarlet@gmail.com,
-""")
+st.markdown(""" """)
+st.markdown("""   - 🗿 Mariana Marulanda
+        - 🆔 1018234921
+        - 📧 1software.files1@gmail.com, """)
+        
+
+st.markdown(""" """)
+st.markdown("""   - 🗿 Sheyla Rodelo
+        - 🆔 1025891870
+        - 📧 rodelosheyla8@gamil.com, """)
+      
+
+
+
 # Pie de página,
 st.markdown("---")
 st.caption("Proyecto realizado con dedicación y aprendizaje ❤️")

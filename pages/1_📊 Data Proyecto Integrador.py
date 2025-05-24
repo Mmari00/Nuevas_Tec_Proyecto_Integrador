@@ -1,14 +1,12 @@
 import streamlit as st
 import pandas as pd
+from datetime import date
 
 st.set_page_config(
     page_icon="📎",
     layout="wide"
 )
 
-import streamlit as st
-import pandas as pd
-from datetime import date
 
 # Título de la aplicación,
 st.title("📚 Sistema de Toma de Asistencias")
