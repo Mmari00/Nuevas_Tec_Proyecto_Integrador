@@ -43,30 +43,27 @@ st.markdown("""
 
 st.markdown(""" """)
 
-
-# Integrantes del equipo,
-st.subheader("👩‍💻 Integrantes del Proyecto")
-st.markdown(""" """)
-
-st.markdown("""   - 🗿 Skarlet Castillo
-        - 🆔 1036691265
-        - 📧 genessisskarlet@gmail.com,    """)
-                
-
-st.markdown(""" """)
-st.markdown("""   - 🗿 Mariana Marulanda
-        - 🆔 1018234921
-        - 📧 1software.files1@gmail.com, """)
-        
-
-st.markdown(""" """)
-st.markdown("""   - 🗿 Sheyla Rodelo
-        - 🆔 1025891870
-        - 📧 rodelosheyla8@gamil.com, """)
-      
-
-
-
-# Pie de página,
 st.markdown("---")
-st.caption("Proyecto realizado con dedicación y aprendizaje ❤️")
+
+# Sección de información del estudiante con diseño de dos columnas
+col1, col2 = st.columns([1, 2])
+
+# Columna izquierda: Foto del estudiante
+with col1:
+    st.image("assets\image.png", width=450, caption="Chikes", output_format="JPEG")
+
+# Columna derecha: Información del estudiante
+with col2:
+    st.markdown('<h3 margin-top: 50px;">👩‍💻 Integrantes del Proyecto 👩‍💻</h3>', unsafe_allow_html=True)
+    st.markdown(""" """)
+    st.markdown('<p font-size: 30px>🗿 Skarlet Castillo  <span style="color: #0066cc; font-weight: bold; "> 📧genessisskarlet@gmail.com</span></p>', unsafe_allow_html=True)
+    st.markdown(""" """)
+    st.markdown('<p>🗿 Mariana Maruland  <span style="color: #0066cc; font-weight: bold;"> 📧1software.files1@gmail.com</p>', unsafe_allow_html=True)
+    st.markdown(""" """)
+    st.markdown('<p>🗿 Sheyla Rodelo  <span style="color: #0066cc; font-weight: bold;"> 📧rodelosheyla8@gamil.com</span></p>', unsafe_allow_html=True)
+    st.markdown(""" """)
+    st.markdown(""" """)
+    st.markdown(""" """)
+    st.caption("❤️ Proyecto realizado con amor y dedicación ❤️")
+
+st.markdown("---")
