@@ -67,6 +67,3 @@ Esta herramienta permite:
 🧠 Detectar especialidades más competitivas.  
 📈 Entender relaciones entre variables clave del sector tech.
 """)
-
-st.markdown("---")
-st.markdown("<h4 style='text-align: center;'>🎓 ¡Listo para la exposición! Este panel te ayudará a presentar todo de forma clara y profesional.</h4>", unsafe_allow_html=True)

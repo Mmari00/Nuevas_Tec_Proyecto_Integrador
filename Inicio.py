@@ -46,19 +46,22 @@ st.markdown(""" """)
 st.markdown("---")
 
 # Sección de información del estudiante con diseño de dos columnas
-col1, col2 = st.columns([1, 2])
+col1, col2 , col3= st.columns([1, 2, 3])
 
 # Columna izquierda: Foto del estudiante
 with col1:
     st.image("assets\image.png", width=450, caption="Chikes", output_format="JPEG")
 
-# Columna derecha: Información del estudiante
 with col2:
+    st.markdown(""" """)
+
+# Columna derecha: Información del estudiante
+with col3:
     st.markdown('<h3 margin-top: 50px;">👩‍💻 Integrantes del Proyecto 👩‍💻</h3>', unsafe_allow_html=True)
     st.markdown(""" """)
     st.markdown('<p font-size: 30px>🗿 Skarlet Castillo  <span style="color: #0066cc; font-weight: bold; "> 📧genessisskarlet@gmail.com</span></p>', unsafe_allow_html=True)
     st.markdown(""" """)
-    st.markdown('<p>🗿 Mariana Maruland  <span style="color: #0066cc; font-weight: bold;"> 📧1software.files1@gmail.com</p>', unsafe_allow_html=True)
+    st.markdown('<p>🗿 Mariana Marulanda  <span style="color: #0066cc; font-weight: bold;"> 📧1software.files1@gmail.com</p>', unsafe_allow_html=True)
     st.markdown(""" """)
     st.markdown('<p>🗿 Sheyla Rodelo  <span style="color: #0066cc; font-weight: bold;"> 📧rodelosheyla8@gamil.com</span></p>', unsafe_allow_html=True)
     st.markdown(""" """)
