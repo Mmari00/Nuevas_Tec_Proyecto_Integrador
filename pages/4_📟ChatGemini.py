@@ -12,7 +12,7 @@ st.markdown("Este agente puede generar **resúmenes para estudiantes ausentes** 
             "💡 *Recuerda especificar el curso para obtener una respuesta útil.*")
 
 # Selección del tipo de solicitud
-tipo = st.radio("¿Qué deseas generar?", ["📄 Resumen para estudiante ausente", "📋 Plan de mejoramiento para el profesor"])
+tipo = st.radio("¿Qué deseas generar?", ["📄 Resumen para estudiante ausente.", "📋 Plan de mejoramiento para estudiante ausente."])
 
 # Entrada de la solicitud
 pregunta = st.text_area(
@@ -27,7 +27,7 @@ def contiene_curso(texto):
 
 if st.button("✨ Generar contenido") and pregunta:
     if not contiene_curso(pregunta):
-        st.warning("⚠️ Por favor, especifica el curso o asignatura en tu solicitud.")
+        st.warning("⚠️ Por favor, especifica el curso en tu solicitud.")
     else:
         with st.spinner("✍️ Generando contenido..."):
 
@@ -62,4 +62,4 @@ if st.button("✨ Generar contenido") and pregunta:
             st.markdown(texto_generado)
 
 else:
-    st.info("✉️ Por favor, escribe una solicitud que incluya el curso o asignatura.")
+    st.info("✉️ Por favor, escribe una solicitud que incluya el curso.")
